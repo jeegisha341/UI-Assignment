@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+          {% load static %}
+<style>
+    #cs {
+  border-style: solid;
+  border-color: red;
+}
+</style>
+</head>
+<body>
+<!--Navigation Bar-->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">driveddy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Produkte</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Kalender</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Schuler</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Kollegen</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</nav>
+
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-xl-10" id="cs">
+            <h2>Ubersicht deiner Fahrschulen <button type="button"  data-toggle="collapse" data-target="#demo"><i class="fa fa-angle-down" style="font-size:36px"></i></button>
+                  </h2>
+                <div class="container">
+                  <div id="demo" class="collapse">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      <div class="container">
+                          <div class="row">
+                            <div class="col-sm">
+                              <img src="{% static 'img/car.jpg' %}" height="75%" width="50%">
+                            </div>
+                            <div class="col-sm">
+                              Fahrschule Achselpeter
+                                <p><i class=" glyphicon glyphicon-location"></i><pre> Seddiner Strabe 7|10135 Berlin</pre></p>
+                                <p><i class="glyphicon glyphicon-phone"></i><pre> (030) 51 65 64 26</pre></p>
+                                <p><i class="glyphicon glyphicon-user"></i><pre> Achsel Peter Senior</pre></p>
+                                <p><i class="glyphicon glyphicon-mail"></i><pre> achsel@peter.net</pre></p>
+                                <p><i class="glyphicon glyphicon-website"></i><pre> achselpetervollinfahrt.de</pre></p>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                  </div>
+                </div>
+
+<div class="col-xs-12 col-sm-12 col-xl-10 d-none d-md-block d-print-block" id="cs">
+    <h2>Verbessere dein Profil</h2>
+
+                <div class="card-group">
+                  <div class="card">
+                      <div class="card-body">
+                      <h5 class="card-title">Lade hochwertige bilder deiner Fahrschule hoch</h5>
+                      <p class="card-text">AKtuell nutzt dueniens unsever beisheil-bilder.um mehr vertrausen.</p>
+                      <p class="btn btn-primary"><small >Blider hinzufugen</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Lade deine Kollegen zu drivEddy ein</h5>
+                      <p class="card-text">AKtuell nutzt dueniens unsever beisheil-bilder.um mehr vertrausen.</p>
+                      <p class="btn btn-primary"><small >Kollegen einladen</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Erstelle Fuhrerscheinpakete mit preisersparnis</h5>
+                      <p class="card-text">AKtuell nutzt dueniens unsever beisheil-bilder.um mehr vertrausen.</p>
+                      <p class="btn btn-primary"><small >Neue Pakete hinzufugen</small></p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        <div class="col-xs-12 col-sm-12 col-md-9 col-xl-10" id="cs">
+            <h2>Stundenanfragen</h2>
+            <div class="container">
+                              <ul class="list-group">
+                                <li class="list-group-item">First item</li>
+                                <li class="list-group-item">Second item</li>
+                                <li class="list-group-item">Third item</li>
+                              </ul>
+                </div>
+                  </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-9 col-xl-10" id="cs">
+            <h2>Kollegen</h2>
+            <div class="container">
+                              <ul class="list-group">
+                                <li class="list-group-item">First item</li>
+                         <li class="list-group-item">First item</li>
+                                <li class="list-group-item">Second item</li>
+                                <li class="list-group-item">Second item</li>
+                                <li class="list-group-item">Third item</li>
+                              </ul>
+                </div>
+                  </div>
+
+        </div>
+        </div>
+
+</body>
+
+
+</html>
+
+
